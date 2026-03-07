@@ -7,12 +7,12 @@ if age >= 18:
 else:
     print("You cannot vote.")
 
-Temeperatur = 36
+Temperatur = 36
 
 if 30 > temperature:
     print("it's a hot day")
     temperature <= 30
 elif 20 <= temperature:
-    print("the wether is good")
+    print("the weather is good")
 else:
     print("it's cold outside")
