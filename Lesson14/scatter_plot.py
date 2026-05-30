@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('AvgIQpercountry.csv')
+df = pd.read_csv('avgIQpercountry.csv')
 
 
 plt.figure(figsize=(10,6))
