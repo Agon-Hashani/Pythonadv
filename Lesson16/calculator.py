@@ -25,5 +25,5 @@ def main():
     result = calculator(n1, n2, ope)
     st.write(f"Result of the{ope} of {n1} and {n2} is: {result}")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         main()
