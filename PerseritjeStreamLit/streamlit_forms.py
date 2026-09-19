@@ -7,9 +7,9 @@ with st.form("my_form", clear_on_submit=True):
     biography = st.text_area("Short Bio")
     terms = st.checkbox("I agree to the terms and conditions")
 
-    submit_button = st.form_submit_button(Label="Submit")
+    submit_button = st.form_submit_button(label="Submit")
 
-if  submit_button:
+if submit_button:
     st.write(f'Name: {name}')
     st.write(f'Age: {age}')
     st.write(f'Email: {email}')
@@ -18,4 +18,4 @@ if  submit_button:
     if terms:
         st.write('You agreed to the terms and conditions.')
     else:
-        st.write('You did not  agreed to the terms and conditions.')
+        st.write('You did not agree to the terms and conditions.')
