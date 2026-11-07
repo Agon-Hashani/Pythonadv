@@ -41,4 +41,3 @@ if st.button("Get Projects"):
     if proj_data:
         proj_df = 
 
-

@@ -20,4 +20,3 @@ def get_projects():
         lead_developer = Developer(name = "John Doe", experince = 5)
     )
     return {"project": [sample_projects]}
-
